@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- icon cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- link css -->
     <link rel="stylesheet" href="index.css" />
     <!-- talwind link -->
@@ -17,7 +25,9 @@
   </head>
   <body class="">
     <!-- nab bar  -->
-    <div class="navbar h-[100px] bg-base-100 shadow-sm justify-between">
+    <div
+      class="navbar h-[100px] bg-base-100 shadow-sm justify-between mt-5 nav"
+    >
       <div class="flex justify-center items-center gap-5">
         <img class="w-[100px]" src="./assets/logo.png" alt="" />
         <img
@@ -38,6 +48,154 @@
       </div>
     </div>
     <!-- banner  -->
-    <div></div>
+    <div class="baner flex flex-col items-center p-7">
+      <img class="w-[150px] h-[150px]" src="./assets/logo-dark.png" alt="" />
+      <h1 class="text-white baner-title">Emergency Service Directory</h1>
+      <p class="baner-deatil text-white mt-2">
+        Government Emergency Services at Your Fingertip – A Project by
+        Government of the People’s Republic of Bangladesh
+      </p>
+    </div>
+    <!-- card and history section -->
+    <div class="grid md:grid-cols-5 justify-between gap-6 bg-[#ccf1c0] p-5">
+      <!-- Card Section (2 cols) -->
+      <div class="md:col-span-4">
+        <div id="cardSection" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <!-- Cards go here -->
+          <!-- card-1 -->
+          <div class="card bg-base-100 shadow-lg p-4">
+            <div class="flex items-center justify-between">
+              <img src="./assets/emergency.png" alt="" />
+              <button><img src="./assets/heart.png" alt="" /></button>
+            </div>
+            <div>
+              <p>Ambulance Service</p>
+              <p class="text-sm">Number: <span class="hotline">999</span></p>
+              <button>All</button>
+            </div>
+            <div class="flex justify-between items-center mt-3">
+              <div class="flex gap-2">
+                <button class="copyBtn btn w-full">Copy</button>
+                <button class="callBtn btn w-full">Call</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- card-2 -->
+          <div class="card bg-base-100 shadow-lg p-4">
+            <div class="flex items-center justify-between">
+              <img src="./assets/emergency.png" alt="" />
+              <button><img src="./assets/heart.png" alt="" /></button>
+            </div>
+            <div>
+              <p>Ambulance Service</p>
+              <p class="text-sm">Number: <span class="hotline">999</span></p>
+              <button>All</button>
+            </div>
+            <div class="flex justify-between items-center mt-3">
+              <div class="flex gap-2">
+                <button class="copyBtn btn w-full">Copy</button>
+                <button class="callBtn btn w-full">Call</button>
+              </div>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="card bg-base-100 shadow-lg p-4">
+            <div class="flex items-center justify-between">
+              <img src="./assets/emergency.png" alt="" />
+              <button><img src="./assets/heart.png" alt="" /></button>
+            </div>
+            <div>
+              <p>Ambulance Service</p>
+              <p class="text-sm">Number: <span class="hotline">999</span></p>
+              <button>All</button>
+            </div>
+            <div class="flex justify-between items-center mt-3">
+              <div class="flex gap-2">
+                <button class="copyBtn btn w-full">Copy</button>
+                <button class="callBtn btn w-full">Call</button>
+              </div>
+            </div>
+          </div>
+          <!-- card-4 -->
+          <div class="card bg-base-100 shadow-lg p-4">
+            <div class="flex items-center justify-between">
+              <img src="./assets/emergency.png" alt="" />
+              <button><img src="./assets/heart.png" alt="" /></button>
+            </div>
+            <div>
+              <p>Ambulance Service</p>
+              <p class="text-sm">Number: <span class="hotline">999</span></p>
+              <button>All</button>
+            </div>
+            <div class="flex justify-between items-center mt-3">
+              <div class="flex gap-2">
+                <button class="copyBtn btn w-full">Copy</button>
+                <button class="callBtn btn w-full">Call</button>
+              </div>
+            </div>
+          </div>
+          <!-- card-5 -->
+          <div class="card bg-base-100 shadow-lg p-4">
+            <div class="flex items-center justify-between">
+              <img src="./assets/emergency.png" alt="" />
+              <button><img src="./assets/heart.png" alt="" /></button>
+            </div>
+            <div>
+              <p>Ambulance Service</p>
+              <p class="text-sm">Number: <span class="hotline">999</span></p>
+              <button>All</button>
+            </div>
+            <div class="flex justify-between items-center mt-3">
+              <div class="flex gap-2">
+                <button class="copyBtn btn w-full">Copy</button>
+                <button class="callBtn btn w-full">Call</button>
+              </div>
+            </div>
+          </div>
+          <!-- card-6 -->
+          <div class="card bg-base-100 shadow-lg p-4">
+            <div class="flex items-center justify-between">
+              <img
+                class="bg-red-200 rounded-3xl p-3 w-[70px] h-[70px] mb-3"
+                src="./assets/emergency.png"
+                alt=""
+              />
+              <button>
+                <img
+                  class="w-[25px] h-[25px]"
+                  src="./assets/heart.png"
+                  alt=""
+                />
+              </button>
+            </div>
+            <div>
+              <p class="text-xl font-bold">Anti-Corruption Helpline</p>
+              <p class="text-sm text-gray-500 mb-2">Anti-Corruption</p>
+              <h3 class="text-3xl font-bold mb-2">999</h3>
+              <button class="btn btn-all rounded-2xl">All</button>
+            </div>
+            <div class="flex justify-between items-center mt-2">
+              <div class="flex gap-2">
+                <button class="copyBtn text-gray-500 btn w-[130px]">
+                  <i class="fa-solid fa-copy"></i> Copy
+                </button>
+                <button class="callBtn btn w-[130px]">
+                  <i class="fa-solid fa-phone"></i> Call
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- History Section (1 col) -->
+      <div id="historySection" class="grid-cols-1 bg-white p-4 rounded shadow">
+        <div class="flex justify-between items-center">
+          <h2 class="font-bold flex items-center gap-2">📜 Call History</h2>
+          <button id="clearHistoryBtn" class="btn btn-sm">Clear</button>
+        </div>
+        <ul id="historyList" class="mt-3 space-y-2"></ul>
+      </div>
+    </div>
   </body>
 </html>

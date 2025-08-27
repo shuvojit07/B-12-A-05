@@ -1,0 +1,47 @@
+/* google font  */
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap");
+
+/* navbar */
+.nav {
+  padding: 25px;
+}
+/* banner section */
+.baner {
+  background: linear-gradient(to right, #013223, #006747, #013223);
+}
+
+.baner-title {
+  font-family: Hind Madurai;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.baner-deatil {
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 100%;
+}
+/* card */
+
+/* btn */
+.callBtn {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: undefined;
+
+  color: #ffffff;
+  background-color: #15d81f;
+  border-radius: 15px;
+  font-size: small;
+}
+.btn-all {
+  border-radius: 12px;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.15);
+  background: var(--White, rgb(212, 211, 211));
+  font-size: medium;
+}
