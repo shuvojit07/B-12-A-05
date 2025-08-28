@@ -51,7 +51,7 @@ document.querySelectorAll(".callBtn").forEach((btn) => {
     const li = document.createElement("li");
     li.className = "p-2 bg-gray-100 ";
     li.innerHTML = `
-    <div class="flex justify-between">
+    <div class="flex sm:flex-col lg:flex-row justify-between">
     <div>
      <span class="text-2xl font-bold">${service}</span></br>
     <span class=" text-xl font-bold">${hotline} </span></div>

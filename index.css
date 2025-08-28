@@ -64,7 +64,7 @@
 
 /* btn */
 .callBtn {
-  width: 100px;
+  width: 130px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -72,6 +72,9 @@
   border-radius: 8px;
   background: var(--Green, rgba(0, 166, 62, 1));
   font-size: small;
+}
+.copyBtn {
+  width: 130px;
 }
 .btn-all {
   border-radius: 12px;
