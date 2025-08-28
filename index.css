@@ -3,7 +3,8 @@
 
 /* navbar */
 .nav {
-  padding: 25px;
+  display: flex;
+  padding: 20px;
 }
 .model {
   border-radius: 50px;
