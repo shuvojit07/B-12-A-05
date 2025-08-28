@@ -5,6 +5,31 @@
 .nav {
   padding: 25px;
 }
+.model {
+  border-radius: 50px;
+  background: rgba(65, 255, 107, 0.1);
+  /* Frame 27149 */
+  width: 123px;
+  height: 52px;
+  /* Auto layout */
+  justify-content: center;
+  align-items: center;
+  gap: undefined;
+  padding: 12px;
+}
+
+.model-copy {
+  border-radius: 50px;
+  background: rgba(0, 166, 62, 1);
+  /* Frame 27149 */
+  width: 123px;
+  height: 52px;
+  /* Auto layout */
+  justify-content: center;
+  align-items: center;
+  gap: undefined;
+  padding: 12px;
+}
 /* banner section */
 .baner {
   background: linear-gradient(to right, #013223, #006747, #013223);
@@ -35,8 +60,8 @@
   gap: undefined;
 
   color: #ffffff;
-  background-color: #15d81f;
-  border-radius: 15px;
+  border-radius: 8px;
+  background: var(--Green, rgba(0, 166, 62, 1));
   font-size: small;
 }
 .btn-all {
@@ -44,4 +69,17 @@
   box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.15);
   background: var(--White, rgb(212, 211, 211));
   font-size: medium;
+}
+.clear-btn {
+  border-radius: 50px;
+  color: rgba(255, 255, 255, 1);
+  background: rgba(0, 166, 62, 1);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 36px 12px 36px;
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
 }
